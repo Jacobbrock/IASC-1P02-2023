@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+    margin:0;
+}
+
+
+.box {
+    border: 4px solid black;
+    margin: 360px 10% 80px 10%;
+    padding: 180px;
+}
+
+.box .green-border {
+    border: 2px dashed green;
+    margin: -160px -13% 20px -13%;
+    padding: 5px;
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+
+img {
+    border: 2px dashed orange;
+    margin: 0px 96% -195px -14.5%;
+    padding: 15px;
+}

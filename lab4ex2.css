@@ -1,0 +1,52 @@
+.box {
+    border: 4px dotted purple;
+    margin: 0px 1% 0px 1%;
+    padding: 170px;
+}
+
+.box p {
+  margin: 40px 35% -230px 40%;
+  padding: 85px;
+  font-weight: 500;
+}
+
+.more-text {
+  color: green;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.custom-text {
+    font-size: 35px;
+    margin-top: 40px
+}
+
+.custom-text span {
+    color: orange;
+}
+
+.custom-text .red-text {
+    color: red;
+    position: relative;
+    top: -10px;
+}
+
+.even-text {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.even-text p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.bold-yellow {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.purple-text {
+    color: purple;
+}
