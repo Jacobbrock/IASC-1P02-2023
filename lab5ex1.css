@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background-color: white;
+}
+
+#header {
+    height: 65px;
+    text-align: center;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    position: relative;
+}
+
+#body {
+    height: 500px;
+    background-color: green;
+    padding-top: 1%;
+    position: relative;
+}
+
+#bottom {
+    text-align: left;
+    height: 80px;
+    clear: both;
+    background-color: blue;
+    padding-top: 1%;
+    position: relative;
+}
