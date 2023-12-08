@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Karas Model Shop</title>
+    <link href="kuba.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="header-container">
+          <div class="navigation">
+            <div class="logo">
+              <a href="Kuba.html">
+                <img src="karas1.png" alt="companylogo" />
+              </a>
+            </div>
+              <div class="items">
+                  <a href="#" class="active">Airplanes</a>
+                  <a href="#">Military</a>
+                  <a href="#">Cars</a>
+                  <a href="#">Tools</a>
+                  <a href="#">Support</a>
+                  <button class="shopping-bag" onmouseover="animateOnHover()" onclick="goToCart()">
+                    <img src="icons8-shopping-bag-24.png" alt="Shopping Bag" class="animated-icon" />
+                  </button>
+                  <button class="search-icon" onmouseover="animateOnHoverSearch()" onclick="toggleSearchTab()">
+                    <!--(https://www.w3schools.com/jsref/event_onmouseover.asp, Date retrieved: December 3, 2023)-->
+                   <div class="animated-icon" id="searchIcon"></div>
+                 </button>
+              </div>
+          </div>
+    </div>
+
+    <div id="saleBanner">
+        <p id="saleCountdown">Sale ends in: </p>
+    </div>
+
+    <div class="product-showcase">
+        <div class="container">
+            <div class="product">
+                <div class="product-info">
+                    <h2>Su-27</h2>
+                    <p>The most powerful fighter ever.</p>
+                    <button class="learn-more" id="learnMore1">Learn More</button>
+                </div>
+                <div class="product-image">
+                  <img id="product1" src="https://i.pinimg.com/originals/58/67/29/586729b7f1cce5966c7f86671ffac90e.jpg" alt="Su-27"/>
+
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-info">
+                    <h2>King Tiger II</h2>
+                    <p>The ultimate armored juggernaut.</p>
+                    <button class="learn-more" id="learnMore2">Learn More</button>
+                </div>
+                <div class="product-image custom-width">
+                    <img src="https://i.redd.it/negjhedk84w61.jpg" alt="Second Product"/>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-info">
+                    <h2>Yamato</h2>
+                    <p>The unparalleled maritime colossus.</p>
+                    <button class="learn-more custom-learn-more" id="learnMore3">Learn More</button>
+                </div>
+                <div class="product-image custom-width2">
+                    <img src="top3_700.jpeg" alt="Third Product"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-tab" id="searchTab">
+           <input type="text" id="searchInput" value="Search..." onfocus="clearDefaultSearch()" onblur="restoreDefaultSearch()" />
+           <button onclick="closeSearchTab()">Close</button>
+       </div>
+     <!--(https://www.w3schools.com/jsref/event_onfocus.asp, Date retrieved: December 3, 2023)-->
+
+       <div class="site-footer">
+           <p>&copy; 2023 Jacob-inspired Website. All rights reserved.</p>
+           <p>Shopping Bag icon by <a target="_blank" href="https://icons8.com/icon/Cn3bRFTiQ6Tm/shopping-bag">Icons8</a></p>
+           <p>Search icon by <a target="_blank" href="https://icons8.com/icon/e4NkZ7kWAD7f/search">Icons8</a></p>
+       </div>
+
+    <script type="text/javascript" src="kuba.js"></script>
+</body>
+
+</html>

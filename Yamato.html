@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Karas Model Shop</title>
+    <link href="Yamato.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="header-container">
+        <div class="navigation">
+          <div class="logo">
+            <a href="Kuba.html">
+              <img src="karas1.png" alt="companylogo" />
+            </a>
+          </div>
+            <div class="items">
+                <a href="#" class="active">Airplanes</a>
+                <a href="#">Military</a>
+                <a href="#">Cars</a>
+                <a href="#">Tools</a>
+                <a href="#">Support</a>
+                <button class="shopping-bag" onmouseover="animateOnHover()" onclick="goToCart()">
+                  <img src="icons8-shopping-bag-24.png" alt="Shopping Bag" class="animated-icon" />
+                </button>
+                <button class="search-icon" onmouseover="animateOnHoverSearch()" onclick="toggleSearchTab()">
+                 <div class="animated-icon" id="searchIcon"></div>
+               </button>
+            </div>
+        </div>
+  </div>
+
+  <h2 class="carousel-title">Tamiya 1/350 Yamato</h2>
+
+    <div id="saleBanner">
+        <p id="saleCountdown">Sale ends in: </p>
+    </div>
+
+
+  <div class="container">
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="top3_700.jpeg" alt="Image 1"/>
+            <img src="https://www.tamiya.com/english/products/78025yamato/78025/1.jpg" alt="Image 2"/>
+            <img src="https://m.media-amazon.com/images/I/6106ZSSYOyL.jpg" alt="Image 3"/>
+        </div>
+    </div>
+
+<div class="product-container">
+    <div class="product-info">
+        <p class="price">Price: <strong>$322.00</strong></p>
+        <p class="availability">Availability: In Stock</p>
+
+        <div class="add-to-cart-section">
+          <input type="text" id="quantityInput" value="Quantity" onfocus="clearDefault(this)" onblur="restoreDefault(this)" />
+          <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+    <div class="carousel-description">
+      <h2>Description</h2>
+        <p>The Tamiya 1/350 Yamato scale model kit invites modelers to embark on a journey through maritime history, meticulously replicating the majestic Japanese battleship Yamato. Revered as one of the largest and most powerful battleships of World War II, the 1/350 scale model by Tamiya offers a captivating glimpse into the naval might of the Imperial Japanese Navy.</p>
+
+        <p>Crafted with precision, the kit includes finely molded plastic parts that intricately capture the distinctive features of the Yamato. From its imposing main turrets to the intricate superstructure, every detail reflects Tamiya's commitment to historical accuracy. The model showcases the battleship's iconic pagoda mast, imposing gun barrels, and the intricate lattice of rigging, providing a comprehensive representation of this legendary vessel.</p>
+
+        <p>Enthusiasts can anticipate a high level of realism, with features such as finely engraved panel lines, detailed deck structures, and authentic surface textures enhancing the overall authenticity of the model. The 1/350 scale allows for intricate detailing, capturing the nuances of the Yamato's design and historical significance.</p>
+
+        <p>Assembling and painting the Tamiya 1/350 Yamato kit is a rewarding experience for modelers fascinated by naval history. The kit not only serves as a captivating representation of a historical battleship but also offers an opportunity for hobbyists to delve into the intricacies of naval architecture and design.</p>
+
+        <p>Whether displayed as a standalone piece or integrated into a maritime diorama, the completed model stands as a tribute to the naval prowess and technological marvel of the Yamato. Tamiya's dedication to accuracy and craftsmanship ensures that this scale model not only provides a visually stunning display but also fosters a deep appreciation for the historical legacy of one of the most iconic battleships in naval history.</p>
+    </div>
+<!--Schielzeth, B. (2012, March 8). Tamiya 1/350 scale IJN Yamato. FineScale.com. https://finescale.com/product-info/kit-reviews/2012/03/tamiya-1350-scale-ijn-yamato-->
+
+    <div class="related-products">
+        <h2>Items you may like...</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://www.tamiyausa.com/media/CACHE/images/products/lockheed-f-35-a-lightning-ii-none-3-8c3f/af2f205c0e6f053dac97497a395a5e70.jpg" alt="Product 1"/>
+                <p class="product-title">Tamiya 1/48 Lockheed F-35</p>
+                <p class="product-price">$100.00</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://www.genessis-models.co.uk/wp-content/uploads/2023/09/12348_usaf_A-10_eng1.jpg" alt="Product 1"/>
+                <p class="product-title">Academy 1/48 A-10C Thunderbolt</p>
+                <p class="product-price">$68.95</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://finescale.com/~/media/images/workbench-reviews/2023/06-june/wbc-amt-1966-ford-mustang-gt/fsdwbc0623_02cropped.jpg" alt="Product 1"/>
+                <p class="product-title">AMT 1/24 1967 Ford Mustang GT</p>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://finescale.com/~/media/images/workbench-reviews/2022/10-october/wbb-revell-55-chevy-bel-air/_dsc0283.jpg?mw=1000&amp;=800" alt="Product 1"/>
+                <p class="product-title">Monogram 1/24 1955 Chevy Bel Air</p>
+                <p class="product-price">$34.00</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://finescale.com/~/media/images/products-and-reviews/kit-reviews/2015_10/fsmwb1015_revell_patton_01.jpg" alt="Product 1"/>
+                <p class="product-title">Revell 1/35 M48A2 patton Tank</p>
+                <p class="product-price">$41.99</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://www.mrlhobby.com/wp-content/uploads/2023/08/35070_4c1.jpg" alt="Product 1"/>
+                <p class="product-title">Tamiya 1/35 M3A2 Half Track</p>
+                <p class="product-price">$40.99</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://m.media-amazon.com/images/I/71IlLOD0wnS.jpg" alt="Product 1"/>
+                <p class="product-title">Italeri 1/35 Schnellboot</p>
+                <p class="product-price">$152.99</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="https://ca.super-hobby.com/zdjecia/7/1/7/47758_rev05175-4.jpg" alt="Product 1"/>
+                <p class="product-title">Revell 1/72 Torpedo Boat PT-160</p>
+                <p class="product-price">$45.00</p>
+                <button class="add-to-cart-button1" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+
+    <div class="search-tab" id="searchTab">
+           <input type="text" id="searchInput" value="Search..." onfocus="clearDefaultSearch()" onblur="restoreDefaultSearch()" />
+           <button onclick="closeSearchTab()">Close</button>
+       </div>
+
+    <div class="site-footer">
+        <p>&copy; 2023 Jacob-inspired Website. All rights reserved.</p>
+        <p>Shopping Bag icon by <a target="_blank" href="https://icons8.com/icon/Cn3bRFTiQ6Tm/shopping-bag">Icons8</a></p>
+        <p>Search icon by <a target="_blank" href="https://icons8.com/icon/e4NkZ7kWAD7f/search">Icons8</a></p>
+    </div>
+
+    <script type="text/javascript" src="kuba.js"></script>
+
+</body>
+
+</html>

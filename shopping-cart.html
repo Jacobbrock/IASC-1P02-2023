@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Karas Model Shop</title>
+    <link href="sc.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="kuba.js"></script>
+</head>
+
+<body>
+
+  <div class="header-container">
+          <div class="navigation">
+            <div class="logo">
+              <a href="Kuba.html">
+                <img src="karas1.png" alt="companylogo" />
+              </a>
+            </div>
+              <div class="items">
+                  <a href="#" class="active">Airplanes</a>
+                  <a href="#">Military</a>
+                  <a href="#">Cars</a>
+                  <a href="#">Tools</a>
+                  <a href="#">Support</a>
+                  <button class="shopping-bag" onmouseover="animateOnHover()" onclick="goToCart()">
+                    <img src="icons8-shopping-bag-24.png" alt="Shopping Bag" class="animated-icon" />
+                  </button>
+                  <button class="search-icon" onmouseover="animateOnHoverSearch()" onclick="toggleSearchTab()">
+                   <div class="animated-icon" id="searchIcon"></div>
+                 </button>
+              </div>
+          </div>
+    </div>
+
+
+  <div class="shopping-cart">
+    <h2>Your Cart (2 items)</h2>
+    <div class="cart-headers">
+    <h4 class="header-item">Item</h4>
+    <h4 class="header-price">Price</h4>
+    <h4 class="header-quantity">Quantity</h4>
+    <h4 class="header-total">Total</h4>
+  </div>
+    <div class="cart-item">
+      <h3 class="item-name">Tamiya 1/48 Lockheed F-35</h3>
+      <p class="item-ship-date">Estimated Shipping Date: June 6th</p>
+      <p class="item-price">$100.00</p>
+      <input id="item1-quantity" type="text" value="1" class="custom-quan" />
+      <p class="item-total">$100.00</p>
+    </div>
+    <div class="cart-item">
+      <h3 class="item-name2">Italeri 1/35 Schnellboot</h3>
+      <p class="item-ship-date">Estimated Shipping Date: June 6th</p>
+      <p class="item-price">$152.99</p>
+      <input id="item2-quantity" type="text" value="1" class="custom-quan"/>
+      <p class="item-total">$152.99</p>
+    </div>
+
+    <p class="cart-subtotal">Subtotal: $252.99</p>
+    <label for="coupon-code">Coupon Code:</label>
+    <input id="coupon-code" type="text"/>
+  </div>
+
+
+  <div id="saleBanner">
+      <p id="saleCountdown">Sale ends in: </p>
+  </div>
+
+  <div class="search-tab" id="searchTab">
+         <input type="text" id="searchInput" class="search-input" value="Search..." onfocus="clearDefaultSearch()" onblur="restoreDefaultSearch()" />
+         <button onclick="closeSearchTab()">Close</button>
+     </div>
+     <!--(https://www.w3schools.com/jsref/event_onfocus.asp, Date retrieved: December 3, 2023)-->
+
+  <div class="site-footer">
+      <p>&copy; 2023 Jacob-inspired Website. All rights reserved.</p>
+      <p>Shopping Bag icon by <a target="_blank" href="https://icons8.com/icon/Cn3bRFTiQ6Tm/shopping-bag">Icons8</a></p>
+      <p>Search icon by <a target="_blank" href="https://icons8.com/icon/e4NkZ7kWAD7f/search">Icons8</a></p>
+  </div>
+
+</body>
+
+  </html>
